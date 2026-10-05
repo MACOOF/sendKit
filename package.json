@@ -1,0 +1,19 @@
+{
+  "name": "sendkit-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:cli": "bun run packages/cli/src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "private":true
+}
